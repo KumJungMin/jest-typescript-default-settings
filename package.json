@@ -1,0 +1,20 @@
+{
+  "name": "jest-typescript-default-settings",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KumJungMin/jest-typescript-default-settings.git",
+  "author": "KumJungMin <rmawjdals@naver.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@types/jest": "^26.0.23",
+    "babel-jest": "^27.0.5",
+    "jest": "^27.0.5",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.4"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
