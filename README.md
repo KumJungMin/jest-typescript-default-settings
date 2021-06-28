@@ -1,15 +1,18 @@
 # JEST-TypeScript-Settings
+_테스팅 도구인 jest를 사용해 typescript파일에서 작성한 코드를 테스트 해보자! <br/> 이 프로젝트는 테스팅 도구 사용을 위한 기본적인 설정을 하였습니다._
 
-<p align="center"><a href=""><img width=70% src="./asset/title.png"></a></p>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Typescript](https://img.shields.io/badge/typescript-v4.3.4+-blue.svg)
 ![Yarn](https://img.shields.io/badge/yarn-brightgreen.svg)
-![Jest](https://img.shields.io/badge/yarn-v27.0.5+-red.svg)
+![Jest](https://img.shields.io/badge/jest-v27.0.5+-red.svg)
+<p align="center"><a href=""><img width=70% src="./asset/title.png"></a></p>
 
-프로젝트에 대한 간단한 설명이나, 이 프로젝트를 제작한 단체 혹은 회사에 대한 설명을 작성합니다(3~4줄 내외)
-깃은 컴퓨터 파일의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템이다.
-소프트웨어 개발에서 소스 코드 관리에 주로 사용되지만 어떠한 집합의 파일의 변경사항을 지속적으로 추적하기 위해 사용될 수 있다.
+### _테스트 코드를 짜는 이유는_ <br/>
+방금 구현한 기능이 잘 돌아가는지 확인하거나 <br/>
+특정 기능을 변경했을 때 기존에 있던 다른 기능을 깨트리는지 확인하기 위해서입니다. <br/>
+
+### _무엇을 어떻게 테스트 할 것인가?_ <br/>
+가장 중요한 것은 무엇을 어떻게 테스트 할 것인가 인데요, <br/>
+구현된 코드의 흐름이나 로직을 확인하는 것이 아니라 사용자의 관점에서 <br/> 버튼 클릭과 키 입력 등의 이벤트에 따라 UI가 올바르게 전개되는지 확인해야 합니다.
 
 <br/>
 
